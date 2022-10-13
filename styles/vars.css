@@ -1,0 +1,29 @@
+:root {
+  --bg: white;
+  --fg: black;
+  --pri: orange;
+  --sec: yellow;
+  --tri: red;
+  --accent1: #eee;
+  --accent2: #ccc;
+  --accent3: #999;
+  --accent4: #555;
+  --accent5: #222;
+  --size1: 8px;
+  --size2: 16px;
+  --size3: 32px;
+  --size4: 64px;
+  --fontsize: 18px;
+}
+
+@media (prefers-color-scheme: dark){
+  :root {
+  --bg: black;
+  --fg: white;
+  --accent5: #eee;
+  --accent4: #ccc;
+  --accent3: #999;
+  --accent2: #555;
+  --accent1: #222;
+  }
+}

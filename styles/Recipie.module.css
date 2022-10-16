@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--accent1);
+  max-width: 40%;
+  padding: var(--size1);
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 7px var(--accent3);
+  transition: all 250ms ease-in-out;
+  border-radius: 5px;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  border: 1px solid var(--accent4);
+}
+
+.image {
+  width: 40%;
+}
+
+.title {
+  color: var(--pri);
+  font-size: 2rem;
+}

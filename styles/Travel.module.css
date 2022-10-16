@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.cardsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  gap: 30px;
+}

@@ -12,7 +12,7 @@ export const NavBar: FC = () => {
       <div className={styles.title}>Pinch of Paczki</div>
       <a href={'/blog'}>🖌 blog</a>
       <a href={'/about'}>🇵🇱 about</a>
-      {/* <a href={'/travel'}>travel 🌍</a> */}
+      <a href={'/travel'}>travel 🌍</a>
     </nav>
   )
 }
